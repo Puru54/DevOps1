@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
  
-MESSAGE = os.environ.get("APP_MESSAGE", "Hello from DevOps!")
+MESSAGE = os.environ.get("APP_MESSAGE", "Hello from DevOps Lecture")
  
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
